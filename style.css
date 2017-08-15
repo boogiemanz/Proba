@@ -173,7 +173,120 @@ h2, h3 {
 	color: white;
 }
 
+#loginsite {
+	background: url("loginbackground.png");
+}
 
+
+
+
+
+
+
+
+#label {
+	font-family: "Asap Condensed";
+	font-size: 24px;
+}
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 25px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family: "Asap Condensed";
+    opacity: 0.8;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #bc8612;
+    color: white;
+    padding: 20px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    opacity: 0.7;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+button:hover {
+	color: white;
+	background: black;
+	transition: 1s ease all;
+	opacity: 0.9;
+	border: 2px solid black;
+
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 20px 20px;
+    background-color: #d8c69e;
+    color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsivity */
 
 
 @media screen and (max-width: 768px) {
