@@ -1,6 +1,7 @@
 .container {
 	background-image: url("background.png");
 	background-attachment: fixed;
+	background-position: right top;
 }
 
 
@@ -152,22 +153,185 @@
 	display: inline-block;
 	transition: 0.7s ease all;
 	border-bottom: 5px solid white;
+
 }
 
 
 #main {
+	background: white;
+	opacity: 0.8;
 	width: 60%;
-	border: 3px solid black;
+	border: 5px ridge ;
 	margin-top: 150px;
 	display: inline-block;
 	margin-right: 30px;
 	margin-left: 30px;
 	margin-bottom: 50px;
+	font-family: "Asap Condensed"
 }
+
+#main h2 {
+	padding: 20px;
+	background: #4286f4;
+	color: white;
+	text-align: center;
+	opacity: 0.8;
+	display: inline-block;
+	margin: 5% 30%;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid black;
+	
+
+}
+
+#main h3 {
+	padding: 10px;
+	background: #4286f4;
+	color: white;
+	text-align: center;
+	opacity: 0.8;
+	display: inline-block;
+	margin: 5% 30%;
+	overflow: hidden;
+	position: relative;
+	border-radius: 25px;
+}
+
+#main2 {
+	background: white;
+	opacity: 0.8;
+	width: 60%;
+	border: 5px ridge ;
+	margin-top: 150px;
+	display: inline-block;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	font-family: "Asap Condensed"
+}
+
+#main2 h2 {
+	padding: 20px;
+	background: #123875;
+	color: white;
+	text-align: center;
+	opacity: 0.8;
+	display: inline-block;
+	margin: 5% 30%;
+	overflow: hidden;
+	position: relative;
+	border-radius: 25px;
+}
+
+#main2 h3 {
+	padding: 10px;
+	background: #123875;
+	color: white;
+	text-align: center;
+	opacity: 0.8;
+	display: inline-block;
+	margin: 5% 30%;
+	overflow: hidden;
+	position: relative;
+	border-radius: 25px;
+}
+
+#main3 {
+	background: white;
+	opacity: 0.8;
+	width: 60%;
+	border: 5px ridge ;
+	margin-top: 150px;
+	display: inline-block;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	font-family: "Asap Condensed"
+}
+
+#main3 h2 {
+	padding: 20px;
+	background: #842e56;
+	color: white;
+	text-align: center;
+	opacity: 0.8;
+	display: inline-block;
+	margin: 5% 30%;
+	overflow: hidden;
+	position: relative;
+	border-radius: 25px;
+}
+
+#main3 h3 {
+	padding: 10px;
+	background: #842e56;
+	color: white;
+	text-align: center;
+	opacity: 0.8;
+	display: inline-block;
+	margin: 5% 30%;
+	overflow: hidden;
+	position: relative;
+	border-radius: 25px;
+}
+
+#main4 {
+	background: white;
+	opacity: 0.8;
+	width: 60%;
+	border: 5px ridge ;
+	margin-top: 150px;
+	display: inline-block;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	font-family: "Asap Condensed"
+}
+
+#main4 h2 {
+	padding: 20px;
+	background: #631d7c;
+	color: white;
+	text-align: center;
+	opacity: 0.8;
+	display: inline-block;
+	margin: 5% 30%;
+	overflow: hidden;
+	position: relative;
+	border-radius: 25px;
+}
+
+#main4 h3 {
+	padding: 10px;
+	background: #631d7c;
+	color: white;
+	text-align: center;
+	opacity: 0.8;
+	display: inline-block;
+	margin: 5% 30%;
+	overflow: hidden;
+	position: relative;
+	border-radius: 25px;
+}
+
+#main p, #main2 p, #main3 p, #main4 p {
+	border-radius: 100px;
+	border: 1px solid black;
+	padding: 5%;
+	margin: 5% 20%;
+	color: white;
+	background: black;
+	opacity: 0.9;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
 
 #sideimg {
 	float: right;
-	border: 3px solid black;
 	margin-top: 150px;
 	margin-left: 30px;
 	margin-right: 50px;
@@ -175,11 +339,29 @@
 }
 
 #botimg {
-	width: 100%;
+	max-width: 70%;
+	margin: 5% 15%;
 	height: auto;
+	border: 5px solid grey;
+	opacity: 0.9;
 }
 
 #boogiemanz {
 	text-align: right;
+	color: white;
+	margin-right: 5%;
+	padding: 2px;
+	background: black;
+	display: inline-block;
+	width: 99.7%;
+}
 
+#boogiemanz a {
+	text-decoration: underline;
+	font-size: 18px;
+	color: white;
+}
+
+#boogiemanz a:hover {
+	color: gold;
 }
