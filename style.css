@@ -1,7 +1,10 @@
 .container {
 	background-image: url("background.png");
+	background-size: 100%;
 	background-attachment: fixed;
 	background-position: right top;
+
+
 }
 
 
@@ -9,9 +12,11 @@
 #header {
 	background-image: url("header.png");
 	background-size: 100% 500px;
+	background-repeat: no-repeat;
 	width: 99.8%;
+	box-shadow: 3px 3px black;
 	height: 500px;
-	box-shadow: 3px 3px grey;
+	opacity: 0.9;
 }
 
 #header2 {
