@@ -365,3 +365,73 @@
 #boogiemanz a:hover {
 	color: gold;
 }
+
+
+
+/* responsivity */
+
+@media screen and (max-width: 460px) {
+
+
+		#header, #header2, #header3, #header4 {
+			background-size: 100% 200px;
+			background-repeat: no-repeat;
+			height: 400px;
+			background-color: black;
+			opacity: 0.8;
+
+		}
+
+		#firstnavbar ul {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+		}
+
+
+		#secondnavbar ul {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+
+		#secondnavbar li {
+			width: 100%;
+			text-align: center;
+		}
+
+		#secondnavbar li a {
+			padding: 5px;
+
+		}
+
+		#header h1, #header2 h1, #header3 h1, #header4 h1 {
+			font-size: 40px;
+		}
+
+
+		#main, #main2, #main3, #main4 {
+			margin-top: 50px;
+			margin-left: 0;
+			width: 100%;
+			padding: 0;
+			float: left;
+			border: none;
+		}
+
+		#main h2, #main2 h2, #main3 h2, #main4 h2 {
+			margin: 50px auto;
+		}
+
+		#main h3, #main2 h3, #main3 h3, #main4 h3  {
+			margin: 30px auto;
+		}
+
+		#sideimg {
+			max-width: 200px;
+			max-height: 400px;
+			margin: 0 auto;
+		}
+}
+	
