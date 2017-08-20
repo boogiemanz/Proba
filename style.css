@@ -372,6 +372,9 @@
 
 @media screen and (max-width: 460px) {
 
+		.container {
+			background: white;
+		}
 
 		#header, #header2, #header3, #header4 {
 			background-size: 100% 200px;
@@ -421,15 +424,25 @@
 		}
 
 		#main h2, #main2 h2, #main3 h2, #main4 h2 {
-			margin: 50px auto;
-		}
-
-		#main h3, #main2 h3, #main3 h3, #main4 h3  {
 			margin: 30px auto;
 		}
 
+		#main h3, #main2 h3, #main3 h3, #main4 h3  {
+			margin: 20px 0;
+			width: 100%;
+			padding: 5px 0;
+		}
+
+		#main p, #main2 p, #main3 p, #main4 p {
+
+			margin: 5px 0;
+			padding: 20px 0;
+			width: 100%;
+		} 
+
 		#sideimg {
-			max-width: 200px;
+			width: 100%;
+			max-width: 300px;
 			max-height: 400px;
 			margin: 0 auto;
 		}
