@@ -1,0 +1,283 @@
+body, html {
+    height: 100%;
+    font-size: 100%;
+}
+
+.hero-text h1 {
+    font-family: 'Permanent Marker', cursive; 
+    font-size: 55px;
+}
+
+#letter {
+    color: #FDAB00;
+}
+
+#section1 {
+    margin-top: 85px;
+}
+
+#section1 h2, #section1 p {
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+}
+
+#testimonial {
+  background:#f1f1f1;
+  padding: 30px 0 30px 0;
+  text-align:center;
+  margin-top:30px;
+  margin-bottom: 39px;
+  border-top: 1px solid #FDAB00;
+  border-bottom: 1px solid #FDAB00;
+}
+
+#testimonial p {
+  font-size:22px;
+  font-family: 'Prompt', sans-serif;
+  color:#000;
+}
+
+#testimonial p.customer {
+  font-size:10px;
+  color:#666;
+  float: right;
+}
+
+
+/*******************************
+
+    Navigation Button
+
+    ***********************************/
+
+.scrollbutton {
+    font-size: 30px !important;
+    color: #FDAB00;
+    float: right;
+}
+
+.scrollbutton i {
+    font-size: 30px !important;
+}
+
+
+
+/*******************************************************
+
+      SPLIT PICTURES
+
+
+
+      **********************************************/
+
+#wrapper{
+  position: relative;
+  width:100%;
+  min-height:48vw;
+  overflow: hidden;
+  border-bottom: 2px solid #FDAB00;
+}
+
+.layer{
+  position: absolute;
+  width:100vw;
+  min-height: 55vw;
+  overflow: hidden;
+}
+
+.layer .content-wrap{
+  position: absolute;
+  width:100vw;
+  min-height: 55vw;
+}
+
+.layer .content-body{
+  width:25%;
+  position:absolute;
+  top:50%;
+  text-align: center;
+  transform:translateY(-50%);
+  color:#fff;
+}
+
+.layer img{
+  position: absolute;
+  width:35%;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+
+.layer h1{
+  font-size:3em;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.bottom{
+  background:#222;
+  z-index:1;
+}
+
+.bottom .content-body{
+  right:5%;
+}
+
+.bottom h1{
+  color:#FDAB00;
+}
+
+.top{
+  background:#eee;
+  color:#222;
+  z-index:2;
+  width:50vw;
+}
+
+.top .content-body{
+  left: 5%;
+  color:#222;
+}
+
+.handle{
+  position: absolute;
+  height: 100%;
+  display: block;
+  background-color: #FDAB00;
+  width:5px;
+  top:0;
+  left: 50%;
+  z-index:3;
+}
+
+.skewed .handle{
+  top:50%;
+  transform:rotate(30deg) translateY(-50%);
+  height: 200%;
+  transform-origin:top;
+}
+
+.skewed .top{
+  transform: skew(-30deg);
+  margin-left:-1000px;
+  width: calc(50vw + 1000px);
+}
+
+.skewed .top .content-wrap{
+  transform: skew(30deg);
+  margin-left:1000px;
+}
+
+@media(max-width:768px){
+  body{
+    font-size:55%;
+  }
+}
+/*******************************
+
+        Price Section
+
+
+        ********************/
+
+
+
+#price {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+}
+
+#pricebox {
+    border: 1px solid #FDAB00;
+    padding: 5px;
+    background: black;
+    color: white;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+#or {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#price .fa {
+    color: #FDAB00;
+    font-size: 200px;
+}
+
+
+
+/***********************
+
+        Contact Form Style
+
+
+        ********************/
+
+#contact {
+  font-family: 'Prompt', sans-serif;
+  background:url(../img/contact.jpeg);
+  background-size: cover;
+  padding:40px;
+  color:#fff;
+  border-top:#333 7px solid;
+  border-bottom:#FDAB00 7px solid;
+  height: 60%;
+  margin-top: 170px;
+
+  
+  
+}
+#contact button {
+    border: 1px solid #FDAB00;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: 0.9;
+    color: #FDAB00;
+
+}
+
+#contact button:hover {
+    border: 1px solid #FDAB00;
+    color: white;
+    background: black;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#contact .form-control {
+    border: 1px solid #FDAB00;
+    opacity: 0.8;
+}
+
+.contact-box {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 100px;
+  
+}
+
+footer .contact-box a {
+  text-decoration: none !important;
+  color: #FDAB00;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+#design-image {
+
+  max-height: 100px;
+  padding:5px 100px;
+  background: black;
+  border-radius: 20px;
+}
+
+@media(max-width:768px){
+  #design-image{
+    padding: 5px;
+  }
+}
